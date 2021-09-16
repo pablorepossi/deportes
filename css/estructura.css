@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 14px;
+}
+
+body {
+    font-family:monospace;
+    font-size:1rem;
+    padding-bottom: 42px;
+    position:relative;
+    min-height: 100vh;
+}
+
+h1,h2,h3,p{
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+header{
+    padding:1rem;
+    background-color: azure;
+}
+
+nav{
+    flex:0%
+}
+
+
+nav a{
+    text-decoration: none;
+    display:inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: .1rem;
+}
+
+.raper{
+    display:flex;
+    padding:1rem;
+
+}
+
+main section{
+    flex:1;
+}
+
+main aside{
+    max-width: 100px;
+    flex:0 0 100px;
+    margin-right: 1rem;
+
+}
+aside img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+footer{
+    padding: 1rem;
+    text-align: center;
+    background-color: silver;
+    color:blue;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+aside p{
+    font-size: .7rem;
+    opacity: .8;
+    background-color: red;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+nav a:hover{
+    color:teal;
+
+}
+
+.form-control{
+    margin: 0;
+    padding:0;
+    display:block;
+}
+
+@import url(../otros/bootstrap-4.6.0-examples.zip);

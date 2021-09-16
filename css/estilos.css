@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+.parrafo {
+	color:blue;
+}
+
+#primer-parrafo{
+	font-size: 20px;
+}
+/* encabezados*/
+
+li {
+	color:red;
+}
+
+main h2 {
+	color:green;
+}
+
+section tr{
+	color:purple;
+}
+
+
+
+article {
+	font-size: 32px;
+	line-height: 4,0;
+	font-style:italic;
+}
+
+.cabeza {
+	font-family: monospace;
+	line-height: 32px;
+	outline: 3px solid blue;
+	padding: 100px;
+	border: 1 px solid purple;
+	margin-bottom: 8 px;
+}
+
+h1 {
+	text-align:	left;
+}
+/*margin top*/
+
+nav {
+	text-align: center;
+}
+
+.cabeza {
+	background-color: yellow;
+}
+
+body {
+	background-image:url(../polto3.jpg);
+	background-color:
+	background-position: 100px 30px;
+	background-size: 50px 70px;
+	background-repeat:no-repeat;
+}
+
+body {
+
+}
+
+.font-family{
+	font-family: ro;

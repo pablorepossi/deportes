@@ -1,0 +1,45 @@
+main{
+    display:grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px;
+    grid-auto-rows: auto;
+    gap:1rem;
+    grid-template-areas: 
+        "nav header header"
+        "nav content aside"
+        "nav content aside"
+        "nav footer footer"       
+}
+
+main > *{
+    background-color: grey;
+
+}
+
+img{
+    max-width: 100px;
+    height: auto;
+}
+
+header{grid-area: header;}
+article{grid-area: content;}
+aside{grid-area: aside;}
+footer {grid-area:footer;}
+nav{
+    grid-area: nav;
+    display:flex;
+    flex-direction: column;
+}
+
+.ejemplo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 25rem;
+    grid-auto-rows: 12rem;
+    clip-path: polygon();
+    place-items:center
+}
+
+.header.with-submenu:hover> submenu{
+    display:grid
+}
